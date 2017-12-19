@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <nav class="row blue darken-2">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo">Portfolio</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="#!">Мои достижения</a></li>
+                <li><a href="works.html">Мои Работы</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container row blue darken-3">
+        <div class="caption left-align col s12"><img src="img/startG.png"></div>
+        <div class="caption left-align col s12"><img src="img/Game.png"></div>
+        <a href="myGame/index.html" class="btn cyan pulse">Play</a>
+    </div>
+
+    <footer class="page-footer blue darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" onclick="Materialize.toast('Error 404', 4000)" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" onclick="Materialize.toast('Error', 4000)" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" onclick="Materialize.toast('Error', 4000)" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3 modal-trigger" href="#modal1">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 Copyright A.P
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.parallax').parallax();
+        });
+
+    </script>
+</body>
+
+</html>
